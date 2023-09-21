@@ -65,10 +65,13 @@ $ npm install
 $ npm start
 ```
 
-4. You can run the server while detecting changes in the server side (the application will update)
+4. Development: You can run the server while detecting changes in the server side (the application will update)
 
 ```
 $ npm dev
 ```
+
+More Info on connecting client-server -
+https://codedamn.com/news/reactjs/how-to-connect-react-with-node-js
 
 
