@@ -12,7 +12,9 @@ An example app for the queenB Initiative - Boilerplate
 * install node.js - https://phoenixnap.com/kb/install-node-js-npm-on-windows
 * install npm - package manager - Node / npm: https://nodejs.org/en/download
 *  pgAdmin (postgres client)
+
   Windows: https://www.postgresql.org/ftp/pgadmin/pgadmin4/v7.6/windows/
+
   Mac: https://www.postgresql.org/ftp/pgadmin/pgadmin4/v7.6/macos/
 
 
@@ -24,9 +26,12 @@ If you wish to tun the client you to do this by running 'npm start' from the cli
 ### Get the boilerplate project
 
 1. Create your own github user, you can connect to it with user password (2 step authentication) or create an ssh key (configuration - https://github.com/settings/profile)
+   
    a. Creating SSH key - [SSH KEY instructions](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
-   b. Install a two factor authentication app (like Authenticator) on you phone, configure it in github (https://github.com/settings/security), and use it to connect (you will be asked when you try to push code)
+   b. Install a two factor authentication app (like Authenticator) on you phone, 
+      configure it in github (https://github.com/settings/security), 
+      and use it to connect (you will be asked for a user password when you try to push code)
 
 
 2. Fork this project to your repository (creates a copy)
