@@ -6,10 +6,14 @@ An example app for the queenB Initiative - Boilerplate
 
 ## Prerequisites
 
+* install VS Code: https://code.visualstudio.com/download
 * install git - https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
-* install docker - in order to run a local postgres database - https://docs.docker.com/get-docker/
+* install Docker - in order to run a local postgres database - https://docs.docker.com/engine/install/
 * install node.js - https://phoenixnap.com/kb/install-node-js-npm-on-windows
-* install npm - package manager
+* install npm - package manager - Node / npm: https://nodejs.org/en/download
+*  pgAdmin (postgres client)
+  Windows: https://www.postgresql.org/ftp/pgadmin/pgadmin4/v7.6/windows/
+  Mac: https://www.postgresql.org/ftp/pgadmin/pgadmin4/v7.6/macos/
 
 
 ## Running locally
@@ -76,3 +80,8 @@ https://codedamn.com/news/reactjs/how-to-connect-react-with-node-js
 
 
 
+### Running a local Postgres database
+
+```
+docker run --name qb-postgres -e POSTGRES_PASSWORD=mysecretpassword -p 5432:5432 -d postgres
+```
