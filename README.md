@@ -19,14 +19,17 @@ If you wish to tun the client you to do this by running 'npm start' from the cli
 
 ### Get the boilerplate project
 
-1. Create your own github user, you can connect to it with user password or create an ssh key (configuration - https://github.com/settings/profile)
+1. Create your own github user, you can connect to it with user password (2 step authentication) or create an ssh key (configuration - https://github.com/settings/profile)
+   a. Creating SSH key - [SSH KEY instructions](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
+   b. Install a two factor authentication app (like Authenticator) on you phone, configure it in github (https://github.com/settings/security), and use it to connect (you will be asked when you try to push code)
+
 
 2. Fork this project to your repository (creates a copy)
-
 3. Clone it to your local computer (downloads the project)
 
 ```
-$ git clone https://github.com/<you user name>/Queen-B-Bootcamp-Example.git (you can get link for the project)
+$ git clone https://github.com/<you user name>/Queen-B-Bootcamp-Example.git (you can get link for the project in the website)
 ```
 
 ### Client side 
