@@ -59,6 +59,12 @@ $ npm install
 $ npm run build 
 ```
 
+4. When running in development mode in order to see the errors - debug and work locally, after running the server run: (and open the web page on 3000 port)
+
+```
+$ npm start
+```
+
 ### Server side 
 1. open another terminal in the project root
 

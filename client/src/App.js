@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import firstPerson from './images/person1.svg';
 const port = process.env.PORT || 5001;
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
   return (
     <div className="App">
       <h1>{message}</h1>
+      <img src={firstPerson} alt="person1" />
     </div>
   );
 }
