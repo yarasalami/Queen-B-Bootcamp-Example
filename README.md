@@ -77,13 +77,13 @@ $ npm install
 3. Run the server 
 
 ```
-$ npm start
+$ npm run start
 ```
 
 4. Development: You can run the server while detecting changes in the server side (the application will update)
 
 ```
-$ npm dev
+$ npm run dev
 ```
 
 More Info on connecting client-server -
