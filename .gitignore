@@ -9,8 +9,9 @@ lerna-debug.log*
 # You'll thank me later
 node_modules/
 
-# Because of course you're using VS Code
-.vscode/
+/node_modules
+/client/node_modules
+/client/build
 
 # Because of course you're using idea IDE
 .idea/
